@@ -22,5 +22,7 @@ public class ExerciseOne {
         } else {
             System.out.println(String.format("%s is less than 0.", x));
         }
+
+        keyboard.close();
     }
 }

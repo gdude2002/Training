@@ -17,5 +17,7 @@ public class ExerciseThree {
                 "Number is " +
                 (((num % 2) == 0) ? "even" : "odd")
         );
+
+        keyboard.close();
     }
 }

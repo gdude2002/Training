@@ -56,6 +56,8 @@ public class ExerciseTwo {
         } else {
             System.out.println("Grade: FAIL");
         }
+
+        keyboard.close();
     }
 
     public static int getGrade() {

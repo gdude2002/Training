@@ -22,5 +22,7 @@ public class ExerciseFour {
                 (((first % second) == 0) ? " " : " not ") +
                 "equally divisible by the second."
         );
+
+        keyboard.close();
     }
 }
