@@ -45,13 +45,13 @@ public class ExerciseTwo {
 
         System.out.println(String.format("Total: %s / Average: %s", total, average));
 
-        if (average > 71) {
+        if (average >= 70) {
             System.out.println("Grade: DISTINCTION");
-        } else if (average > 64) {
+        } else if (average >= 63) {
             System.out.println("Grade: MERIT ONE");
-        } else if (average > 56) {
+        } else if (average >= 55) {
             System.out.println("Grade: MERIT TWO");
-        } else if (average > 41) {
+        } else if (average >= 40) {
             System.out.println("Grade: PASS");
         } else {
             System.out.println("Grade: FAIL");
