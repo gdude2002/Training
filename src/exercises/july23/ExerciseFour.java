@@ -2,6 +2,11 @@ package exercises.july23;
 
 import java.util.Scanner;
 
+/**
+ * Write a program which asks the user for two numbers. It then indicates whether the
+ * first number is exactly divisible by the second number.
+ */
+
 public class ExerciseFour {
     public static Scanner keyboard = new Scanner(System.in);
 

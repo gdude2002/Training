@@ -2,6 +2,11 @@ package exercises.july23;
 
 import java.util.Scanner;
 
+/**
+ * Write a program in which the user enters an integer value. Depending on the input, the program
+ * will output whether the number is greater than, less than, or equal to zero.
+ */
+
 public class ExerciseOne {
 
     public static void main (String[] args) {

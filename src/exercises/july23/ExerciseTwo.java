@@ -3,6 +3,17 @@ package exercises.july23;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Create a program to ask the user how many grades they want to enter. It will calculate the
+ * average mark and indicate whether the mark is a..
+ *
+ * > Distinction    70 - 100
+ * > Merit 1        63 - 69
+ * > Merit 2        55 - 62
+ * > Pass           40 - 50
+ * > Fail           < 40
+ */
+
 public class ExerciseTwo {
     static Scanner keyboard = new Scanner(System.in);
 

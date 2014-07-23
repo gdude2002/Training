@@ -2,6 +2,10 @@ package exercises.july23;
 
 import java.util.Scanner;
 
+/**
+ * Write a program which determines whether a number is odd or even.
+ */
+
 public class ExerciseThree {
     public static Scanner keyboard = new Scanner(System.in);
 
