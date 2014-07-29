@@ -20,10 +20,12 @@ import java.util.logging.SimpleFormatter;
  * import java.util.logging.*;
  */
 
-public class TestClass {
+class TestClass {
     public static void main(String[] args) throws IOException {
         /* Ensure directory has been created */
-        new File("logs").mkdir();
+        if (!new File("logs").mkdir()) {
+            System.out.println("Failed to create dir.");
+        }
 
         /* Get the date to be used in the filename */
         DateFormat df = new SimpleDateFormat("yyyyMMddhhmmss");

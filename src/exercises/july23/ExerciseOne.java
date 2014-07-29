@@ -7,7 +7,7 @@ import java.util.Scanner;
  * will output whether the number is greater than, less than, or equal to zero.
  */
 
-public class ExerciseOne {
+class ExerciseOne {
 
     public static void main (String[] args) {
         Scanner keyboard = new Scanner(System.in);

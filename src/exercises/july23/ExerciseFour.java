@@ -7,8 +7,8 @@ import java.util.Scanner;
  * first number is exactly divisible by the second number.
  */
 
-public class ExerciseFour {
-    public static Scanner keyboard = new Scanner(System.in);
+class ExerciseFour {
+    private static final Scanner keyboard = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.print("Please input a number: ");

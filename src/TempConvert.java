@@ -3,7 +3,7 @@
  *
  * Temperature conversion app. Does Celcius and Fahrenheit.
  */
-public class TempConvert {
+class TempConvert {
     public static void main(String[] args) {
         if (args.length < 1) {
             // Nothing specified on commandline
@@ -51,17 +51,17 @@ public class TempConvert {
         }
     }
 
-    public static double cToF(double degrees) {
+    private static double cToF(double degrees) {
         // Brackets for verbosity
         return ((degrees * 9) / 5) + 32;
     }
 
-    public static double fToC(double degrees) {
+    private static double fToC(double degrees) {
         // Brackets for verbosity
         return ((degrees - 32) * 5) / 9;
     }
 
-    public static boolean isAlpha(String input) {
+    private static boolean isAlpha(String input) {
         // Check that the input string is just uppercase and lowercase letters
         return input.matches("[a-zA-Z]+");
     }

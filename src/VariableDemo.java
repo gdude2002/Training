@@ -3,7 +3,7 @@
  *
  * Program to demo some variables.
  */
-public class VariableDemo {
+class VariableDemo {
     public static void main(String[] args) {
         int number;
         Integer boxedNumber;

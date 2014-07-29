@@ -14,8 +14,8 @@ import java.util.Scanner;
  * > Fail           < 40
  */
 
-public class ExerciseTwo {
-    static Scanner keyboard = new Scanner(System.in);
+class ExerciseTwo {
+    private static final Scanner keyboard = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.print("How many grades do you want to enter? ");
@@ -60,7 +60,7 @@ public class ExerciseTwo {
         keyboard.close();
     }
 
-    public static int getGrade() {
+    private static int getGrade() {
         System.out.print("Please enter a grade between 0 and 100: ");
 
         int input = keyboard.nextInt();

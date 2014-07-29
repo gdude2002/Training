@@ -6,8 +6,8 @@ import java.util.Scanner;
  * Write a program which determines whether a number is odd or even.
  */
 
-public class ExerciseThree {
-    public static Scanner keyboard = new Scanner(System.in);
+class ExerciseThree {
+    private static final Scanner keyboard = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.print("Please input a number: ");
