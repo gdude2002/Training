@@ -10,5 +10,5 @@ If you have GitHub, feel free to create issues and comments, or fork this repo
 and create pull requests to suggest better solutions to the exercises.
 
 Oh, and remember: **Don't copy that floppy!** If you're doing homework, you should
-still come up with your own answers! Don't directly copy my work, instead use
+still come up with your own answers! Don't directly copy my work - instead, use
 it to give yourself an idea of what to do to solve your specific problem.
