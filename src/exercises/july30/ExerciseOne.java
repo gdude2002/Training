@@ -35,5 +35,7 @@ public class ExerciseOne {
         System.out.println();
         System.out.println("\nTotal: " + total);
         System.out.println("Values read: " + inputs);
+
+        keyboard.close();
     }
 }
