@@ -18,7 +18,9 @@ public class ExerciseTwo {
         // This was introduced in Java 7.
 
         // An example of this is the call to new ArrayList<>(); below.
-        List<Integer> ints = new ArrayList<>();
+
+        // I'd usually use Long but the question specified integers
+        List<Integer> integerss = new ArrayList<>();
 
         if (args.length < 1) {
             System.out.println("Please provide some numbers as arguments.");
@@ -33,19 +35,19 @@ public class ExerciseTwo {
                 System.out.println("Unknown number: '" + element + "' - skipping..");
                 continue;
             }
-            ints.add(input);
+            integerss.add(input);
         }
 
         Integer first = -1;
         Integer last = -1;
 
-        for (int i = 0; i < ints.size(); i += 1) {
+        for (int i = 0; i < integerss.size(); i += 1) {
             if (first.equals(-1)) {
-                if (ints.get(i).equals(12)) {
+                if (integerss.get(i).equals(12)) {
                     first = i;
                 }
             } else {
-                if (ints.get(i).equals(12)) {
+                if (integerss.get(i).equals(12)) {
                     last = i;
                 }
             }

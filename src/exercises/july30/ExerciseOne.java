@@ -19,17 +19,20 @@ public class ExerciseOne {
 
         do {
             if (keyboard.hasNextLong()) {
+                System.out.print("> ");
                 input = keyboard.nextLong();
                 keyboard.nextLine();  // nextLong() doesn't advance past the newline,
                                       // but we need to for error checking
                 total += input;
                 inputs += 1;
             } else {
-                input = 1;
+                input = -1L;
                 System.out.println("Unknown number: " + keyboard.nextLine());
+                // Can't output here for some reason.
             }
         } while (input != 0);
 
+        System.out.println();
         System.out.println("\nTotal: " + total);
         System.out.println("Values read: " + inputs);
     }
