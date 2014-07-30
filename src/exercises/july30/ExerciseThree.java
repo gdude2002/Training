@@ -10,7 +10,12 @@ import java.util.List;
 public class ExerciseThree {
 
     public static void main(String[] args) {
-        List<Long> longs = new ArrayList<Long>();
+        // Diamond types are awesome. They let us create a container of explicit type without actually
+        // specifying the needed type, as it can be inferred from the declaration.
+        // This was introduced in Java 7.
+
+        // An example of this is the call to new ArrayList<>(); below.
+        List<Long> longs = new ArrayList<>();
 
         if (args.length < 1) {
             System.out.println("Please provide some numbers as arguments.");
@@ -31,7 +36,7 @@ public class ExerciseThree {
         Long max = Long.MIN_VALUE;
         Long min = Long.MAX_VALUE;
         Long total = 0L;
-        Long average = 0L;
+        Long average;
 
         for (Long x : longs) {
             total += x;

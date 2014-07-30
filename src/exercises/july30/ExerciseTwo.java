@@ -1,7 +1,6 @@
 package exercises.july30;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -14,7 +13,12 @@ import java.util.List;
 public class ExerciseTwo {
 
     public static void main(String[] args) {
-        List<Integer> ints = new ArrayList<Integer>();
+        // Diamond types are awesome. They let us create a container of explicit type without actually
+        // specifying the needed type, as it can be inferred from the declaration.
+        // This was introduced in Java 7.
+
+        // An example of this is the call to new ArrayList<>(); below.
+        List<Integer> ints = new ArrayList<>();
 
         if (args.length < 1) {
             System.out.println("Please provide some numbers as arguments.");
