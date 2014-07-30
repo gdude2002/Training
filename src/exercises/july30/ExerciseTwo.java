@@ -16,13 +16,14 @@ public class ExerciseTwo {
         // Diamond types are awesome. They let us create a container of explicit type without actually
         // specifying the needed type, as it can be inferred from the declaration.
         // This was introduced in Java 7.
-
+        // ...
         // An example of this is the call to new ArrayList<>(); below.
-
+        // ...
         // I'd usually use Long but the question specified integers
-        List<Integer> integerss = new ArrayList<>();
+        List<Integer> integers = new ArrayList<>();
 
         if (args.length < 1) {
+            // This is a lot more realistic than using a Scanner..
             System.out.println("Please provide some numbers as arguments.");
             return;
         }
@@ -32,23 +33,31 @@ public class ExerciseTwo {
             try {
                 input = Integer.parseInt(element);
             } catch (java.lang.NumberFormatException e) {
+                // ..at least, in part..
                 System.out.println("Unknown number: '" + element + "' - skipping..");
                 continue;
             }
-            integerss.add(input);
+
+            // We use two loops because we need to get rid of the numbers that are invalid.
+            // An alternative approach would be to terminate instead, but we're writing a
+            // "nice" program. \o/
+            integers.add(input);
         }
 
         Integer first = -1;
         Integer last = -1;
 
-        for (int i = 0; i < integerss.size(); i += 1) {
+        for (int i = 0; i < integers.size(); i += 1) {
+            // This is the actual logic.
             if (first.equals(-1)) {
-                if (integerss.get(i).equals(12)) {
+                // Then we know for sure it's the first index
+                if (integers.get(i).equals(12)) {
                     first = i;
                     last = i;
                 }
             } else {
-                if (integerss.get(i).equals(12)) {
+                // It's not the first index, of course
+                if (integers.get(i).equals(12)) {
                     last = i;
                 }
             }
