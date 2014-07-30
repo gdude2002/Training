@@ -20,14 +20,15 @@ public class ExerciseOne {
         do {
             if (keyboard.hasNextLong()) {
                 input = keyboard.nextLong();
-                keyboard.nextLine();
+                keyboard.nextLine();  // nextLong() doesn't advance past the newline,
+                                      // but we need to for error checking
                 total += input;
                 inputs += 1;
             } else {
                 input = 1;
                 System.out.println("Unknown number: " + keyboard.nextLine());
             }
-        } while (input > 0);
+        } while (input != 0);
 
         System.out.println("\nTotal: " + total);
         System.out.println("Values read: " + inputs);
