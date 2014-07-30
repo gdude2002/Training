@@ -24,7 +24,8 @@ quite different.
 In my experience, Eclipse tends to be slow, buggy, confusing to configure, and often
 actually can be more of a hindrance than a help. While you can be a good programmer
 without good tools, they often make or break the development process, and one should
-not be spending large amounts of time on fighting with their tools.
+not be spending large amounts of time on fighting with their tools - and the bottom
+line is, **we deserve better**.
 
 Personally, I use IntelliJ's IDEA, which is a modern, fast and powerful IDE for Java,
 written in Java, and with tons of features that are useful to Java programmers. IntelliJ
