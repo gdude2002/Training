@@ -45,6 +45,7 @@ public class ExerciseTwo {
             if (first.equals(-1)) {
                 if (integerss.get(i).equals(12)) {
                     first = i;
+                    last = i;
                 }
             } else {
                 if (integerss.get(i).equals(12)) {
@@ -53,7 +54,11 @@ public class ExerciseTwo {
             }
         }
 
-        System.out.println("First index: " + first);
-        System.out.println("Last index: " + last);
+        if (first.equals(last)) {
+            System.out.println("Both indexes: " + first);
+        } else {
+            System.out.println("First index: " + first);
+            System.out.println("Last index: " + last);
+        }
     }
 }
