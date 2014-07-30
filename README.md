@@ -4,8 +4,6 @@ not be covered on our course!
 Training
 ========
 
-Yeah, I just created this repo so I had somewhere to put my project files.
-
 If you're in my course group and you're struggling to follow the exercises
 that are being put on the board, you can refer here for alternate solutions.
 
