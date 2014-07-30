@@ -1,3 +1,6 @@
+**Please read this README before the code** - there is lots of useful information here that may
+not be covered on our course!
+
 Training
 ========
 
