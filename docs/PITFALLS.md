@@ -149,8 +149,8 @@ Oh dear.
 
 As you can see, even the Apple engineers fell pray to what, until a few moments ago,
 you probably considered to be a very basic mistake that only a newcomer could make.
-However, as you can see, that's just not the case, and this code had been present
-in iOS for years, up until it was discovered.
+However, as you can see that's just not the case - and this code had been present
+in iOS for years.
 
 Hopefully this emphasizes my point - **Never leave out the curly braces on a
 conditional**. Get into the habit now, or you'll regret it later.
