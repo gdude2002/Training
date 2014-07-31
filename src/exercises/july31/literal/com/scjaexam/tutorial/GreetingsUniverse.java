@@ -12,6 +12,9 @@ class GreetingsUniverse {
     public static void main(String[] args) {
         System.out.println("Greetings, universe!");
 
+        // We're using side-effects, so we don't need to store these.
+        // Note: Don't ever do this in real code! Make methods!
+        // Side-effects are bad because they're unpredictable!
         new Earth();
         new Mars();
         new Venus();
