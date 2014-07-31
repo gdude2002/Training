@@ -14,11 +14,11 @@ public class GreetingsUniverse {
 }
 ```
 
-1. Compile and run the program.
+* Compile and run the program.
     * `javac -d . GreetingsUniverse.java`
-2. Run the program to ensure it's error-free.
+* Run the program to ensure it's error-free.
     * `java -cp . com.scjaexam.tutorial.GreetingsUniverse`
-3. Create three classes named `Earth`, `Mars` and `Venus` and place them
+* Create three classes named `Earth`, `Mars` and `Venus` and place them
     within the `com.scja.exam.tutorial.planets` package. Create constructors
     that will print the names of the planets to standard out.
     * ```java
@@ -31,15 +31,15 @@ public class GreetingsUniverse {
         }
       ```
 
-4. Instanciate each class from the main program by adding the necessary code to
+* Instanciate each class from the main program by adding the necessary code to
     the GreetingsUniverse class.
     * `Earth e = new Earth();`
-5. Ensure that all of the source code is in the paths
+* Ensure that all of the source code is in the paths
     `src/com/scjaexam/tutorial/` and `src/com/scjaexam/tutorial/planets/`
     * They don't have to be exactly this, of course, and won't be for my purposes.
-6. Determine the command-line arguments needed to compile the complete program.
+* Determine the command-line arguments needed to compile the complete program.
     Compile it and debug where necessary.
-7. Determine the command-line arguments needed to interpret the program. Run it.
+* Determine the command-line arguments needed to interpret the program. Run it.
 
 Apparently, the output should read..
 
