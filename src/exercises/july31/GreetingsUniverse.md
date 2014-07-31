@@ -30,6 +30,7 @@ public class GreetingsUniverse {
             }
         }
       ```
+
 4. Instanciate each class from the main program by adding the necessary code to
     the GreetingsUniverse class.
     * `Earth e = new Earth();`
