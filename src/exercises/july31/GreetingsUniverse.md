@@ -53,5 +53,7 @@ Hello from Venus!
 I'm going to be handling this in two ways.
 * The literal answer to the question - `literal/`
     * This will use **dumb classes** that have constructors with **side-effects**
+    * Done: https://github.com/gdude2002/Training/tree/master/src/exercises/july31/literal
 * The "correct" real-world way this might be implemented - `real/`
     * This will use **interfaces** and **no side-effects**
+    * Done: https://github.com/gdude2002/Training/tree/master/src/exercises/july31/real
