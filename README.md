@@ -1,6 +1,12 @@
 **Please read this README before the code** - there is lots of useful information here that may
 not be covered on our course!
 
+Quick links
+===========
+
+* GreetingsUniverse examples:
+    [Here](https://github.com/gdude2002/Training/blob/master/src/exercises/july31/GreetingsUniverse.md)
+
 Training
 ========
 
