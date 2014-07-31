@@ -7,7 +7,7 @@ Quick links
 * Examples
     * [GreetingsUniverse](https://github.com/gdude2002/Training/blob/master/src/exercises/july31/GreetingsUniverse.md)
 * Documents
-    * [GreetingsUniverse](https://github.com/gdude2002/Training/blob/master/docs/PITFALLS.md)
+    * [Pitfalls document](https://github.com/gdude2002/Training/blob/master/docs/PITFALLS.md)
 
 
 Training
