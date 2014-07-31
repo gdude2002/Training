@@ -10,7 +10,7 @@ import java.util.List;
  *
  * Yes, the exercise was /actually/ worded like this. Fml.
  */
-public class ExerciseTwo {
+class ExerciseTwo {
 
     public static void main(String[] args) {
         // Diamond types are awesome. They let us create a container of explicit type without actually

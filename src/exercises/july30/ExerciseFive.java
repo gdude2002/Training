@@ -9,7 +9,7 @@ import java.util.List;
  *
  * WHAT IS WITH THE WORDING? Jeez.
  */
-public class ExerciseFive {
+class ExerciseFive {
 
     public static void main(String[] args) {
         // Diamond types are awesome. They let us create a container of explicit type without actually

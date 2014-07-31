@@ -10,7 +10,7 @@ import java.util.List;
  * And look! We're using Longs, because who knows how many keys the user
  * will smash for their numbers.
  */
-public class ExerciseThree {
+class ExerciseThree {
 
     public static void main(String[] args) {
         // Diamond types are awesome. They let us create a container of explicit type without actually

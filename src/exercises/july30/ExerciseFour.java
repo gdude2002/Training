@@ -13,7 +13,7 @@ import java.util.List;
  *
  * Then again, they all are. Odd for a respected Java course.
  */
-public class ExerciseFour {
+class ExerciseFour {
 
     public static void main(String[] args) {
         // Diamond types are awesome. They let us create a container of explicit type without actually

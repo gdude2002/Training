@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * Your program should terminate when a zero value is read.
  */
-public class ExerciseOne {
+class ExerciseOne {
 
     public static void main(String[] args) {
         long total = 0;
