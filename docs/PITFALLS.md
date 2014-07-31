@@ -4,7 +4,7 @@ Pitfalls: Common problems
 Java is a very versatile language. It takes the best of C, throws in
 some object-oriented goodness and ties it all together with JVM
 bytecode. The versatility is great, but sometimes, there are some things
-it will allow you to do that you simple shouldn't.
+it will allow you to do that you simply shouldn't.
 
 Conditionals: Common pitfalls
 -----------------------------
@@ -92,7 +92,7 @@ we're good programmers, we'll never accidentally break a program with this, righ
 Wrong. Allow me to illustrate this with an example.
 
 Sometime in February of 2014, Apple pushed a [security update](http://support.apple.com/kb/HT6147)
-for iOS. If you don't feel like clicking links, the summery was as follows:
+for iOS. If you don't feel like clicking links, the summary was as follows:
 
 > An attacker with a privileged network position may capture or modify data in sessions protected by SSL/TLS.
 >
@@ -112,7 +112,7 @@ Let's take a look at this C code, taken from
 [Apple's code](http://opensource.apple.com/source/Security/Security-55471/libsecurity_ssl/lib/sslKeyExchange.c?txt)..
 
 ```c
-tatic OSStatus
+static OSStatus
 SSLVerifySignedServerKeyExchange(SSLContext *ctx, bool isRsa, SSLBuffer signedParams,
                                  uint8_t *signature, UInt16 signatureLen)
 {
