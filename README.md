@@ -8,6 +8,7 @@ Quick links
     * [GreetingsUniverse](https://github.com/gdude2002/Training/blob/master/src/exercises/july31/GreetingsUniverse.md)
 * Documents
     * [Pitfalls document](https://github.com/gdude2002/Training/blob/master/docs/PITFALLS.md)
+    * [Wat?](https://github.com/gdude2002/Training/blob/master/docs/WAT.md) (Exceptions)
 
 
 Training
