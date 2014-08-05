@@ -117,10 +117,10 @@ Tricky! To help us answer this, let's create a few truth tables.
 
 | equation | result |
 |----------|--------|
-| `F | F`  | F      |
-| `F | T`  | T      |
-| `T | F`  | T      |
-| `T | T`  | T      |
+| `F \| F` | F      |
+| `F \| T` | T      |
+| `T \| F` | T      |
+| `T \| T` | T      |
 
 **XOR** or `^` (or Exclusive OR)
 
