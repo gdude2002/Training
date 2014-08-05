@@ -9,6 +9,8 @@ Quick links
 * Documents
     * [Pitfalls document](https://github.com/gdude2002/Training/blob/master/docs/PITFALLS.md)
     * [Wat?](https://github.com/gdude2002/Training/blob/master/docs/WAT.md) (Exceptions)
+* Test analyses
+    * [August 5th](https://github.com/gdude2002/Training/blob/master/docs/tests/August05.md)
 
 
 Training
