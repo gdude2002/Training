@@ -26,5 +26,7 @@ public class ExerciseOne {
         } else {
             System.out.println("Please enter a last name.");
         }
+
+        kb.close();
     }
 }

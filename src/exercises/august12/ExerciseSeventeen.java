@@ -21,5 +21,7 @@ public class ExerciseSeventeen {
         input = input.replace('E', 'O');
 
         System.out.println(input);
+
+        kb.close();
     }
 }

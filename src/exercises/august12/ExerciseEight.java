@@ -33,5 +33,7 @@ public class ExerciseEight {
             System.out.println("Please enter a last name.");
             System.out.println(String.format("Occurrences of the letter 'a' and 'A': %s", count));
         }
+
+        kb.close();
     }
 }

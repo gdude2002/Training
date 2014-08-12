@@ -27,5 +27,7 @@ public class ExerciseFive {
             System.out.println("Please enter a last name.");
             System.out.println(String.format("Reversed input: %s", reversed));
         }
+
+        kb.close();
     }
 }

@@ -24,5 +24,7 @@ public class ExerciseNine {
         } else {
             System.out.println("Please enter at least a first and last name.");
         }
+
+        kb.close();
     }
 }

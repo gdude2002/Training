@@ -52,5 +52,7 @@ public class ExerciseThirteen {
             System.out.print("Input some words: ");
             input = kb.nextLine();
         } while (! input.equals("End"));
+
+        kb.close();
     }
 }

@@ -30,5 +30,7 @@ public class ExerciseTen {
         }
 
         System.out.printf("Words containing only letters: %s\n", count);
+
+        kb.close();
     }
 }

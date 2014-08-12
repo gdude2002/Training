@@ -30,6 +30,8 @@ public class ExerciseSixteen {
                 System.out.printf("No 'E'/'e' in '%s'", x);
             }
         }
+
+        kb.close();
     }
 
     private static int findE(String input) {

@@ -25,5 +25,7 @@ public class ExerciseTwenty {
                 System.out.println(x);
             }
         }
+
+        kb.close();
     }
 }

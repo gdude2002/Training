@@ -27,5 +27,7 @@ public class ExerciseThree {
             System.out.println("Please enter a last name.");
             System.out.println(String.format("There are %s characters in your name, including spaces.", chars));
         }
+
+        kb.close();
     }
 }

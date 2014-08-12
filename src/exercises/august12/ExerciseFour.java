@@ -34,5 +34,7 @@ public class ExerciseFour {
             System.out.println("Please enter a last name.");
             System.out.println(String.format("Your name contains %s capital letters.", upperCase));
         }
+
+        kb.close();
     }
 }

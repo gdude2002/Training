@@ -20,12 +20,14 @@ public class ExerciseFifteen {
         String[] words = input.split(" ", 2);
         List<String> sorted = Arrays.asList(words);
 
-        Collections.sort(sorted, String.CASE_INSENSITIVE_ORDER);
+        Collections.sort(sorted);
 
         System.out.print("Words in lexicographical order: ");
 
         for (String x : sorted) {
             System.out.printf("%s ", x);
         }
+
+        kb.close();
     }
 }

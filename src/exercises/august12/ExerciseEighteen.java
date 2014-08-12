@@ -25,5 +25,7 @@ public class ExerciseEighteen {
                 System.out.println(x);
             }
         }
+
+        kb.close();
     }
 }

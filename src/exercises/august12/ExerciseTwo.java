@@ -20,5 +20,7 @@ public class ExerciseTwo {
         String[] names = input.split(" ", 2);
 
         System.out.println(String.format("Your first name is %s", names[0]));
+
+        kb.close();
     }
 }

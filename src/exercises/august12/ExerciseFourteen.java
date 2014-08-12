@@ -29,6 +29,8 @@ public class ExerciseFourteen {
         } else {
             System.out.println("Input is not a palindrome.");
         }
+
+        kb.close();
     }
 
     private static boolean isPalindrome(String input) {

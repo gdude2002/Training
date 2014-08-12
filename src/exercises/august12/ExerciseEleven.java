@@ -35,5 +35,7 @@ public class ExerciseEleven {
             System.out.print("Input some words: ");
             input = kb.nextLine();
         } while (! input.equals("End"));
+
+        kb.close();
     }
 }
