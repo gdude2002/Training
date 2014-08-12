@@ -31,7 +31,7 @@ public class ExerciseFourteen {
         }
     }
 
-    public static boolean isPalindrome(String input) {
+    private static boolean isPalindrome(String input) {
         String reversed = new StringBuilder(input).reverse().toString();
 
         for (int i = 0; i < input.length(); i += 1) {

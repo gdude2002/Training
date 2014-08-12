@@ -32,7 +32,7 @@ public class ExerciseSixteen {
         }
     }
 
-    public static int findE(String input) {
+    private static int findE(String input) {
         int result = input.indexOf('e');
         int result2 = input.indexOf('E');
 
