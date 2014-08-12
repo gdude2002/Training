@@ -11,6 +11,8 @@ Quick links
     * [Wat?](https://github.com/gdude2002/Training/blob/master/docs/WAT.md) (Exceptions)
 * Test analyses
     * [August 5th](https://github.com/gdude2002/Training/blob/master/docs/tests/August05.md)
+* Other stuff
+    * [August 12th exercises](https://github.com/gdude2002/Training/blob/master/src/exercises/august12/README.md)
 
 
 Training

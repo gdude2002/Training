@@ -3,7 +3,8 @@ August 12 exercises
 
 Today's exercises were designed to be done in pairs. I have to say, this
 is the first time I've done pair programming on my own - but I guess, some
-people feel like it's not necessary.
+people feel like it's not necessary, regardless of how ridiculously common
+and useful it is to have a second pair of eyes on your code.
 
 The wording of most of these questions was, as ever, abysmal. For example, exercise
 17..
