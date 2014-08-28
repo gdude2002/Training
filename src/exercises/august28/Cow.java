@@ -1,8 +1,5 @@
 package exercises.august28;
 
-/**
- * Created by bw5 on 28/08/2014.
- */
 public class Cow {
 
     public static void main(String[] args) {
