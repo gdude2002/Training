@@ -37,7 +37,7 @@ public class MapPane extends JPanel {
             }
         }
 
-        // ???
+        // Draw land
         GradientPaint gp = new GradientPaint(0F, 0F, Color.green, 350F, 350F, Color.orange, true);
         comp2D.setPaint(gp);
 
@@ -64,7 +64,7 @@ public class MapPane extends JPanel {
         fl.closePath();
         comp2D.fill(fl);
 
-        // ???
+        // Draw some mickey mouse head thing
         BasicStroke pen2 = new BasicStroke();
 
         comp2D.setColor(Color.black);
